@@ -8,8 +8,8 @@ const constructorMethod = (app) => {
 			.status(404)
 			.json([
 				{ error: 'Page Not Found, try' },
-				{ Peopledata: 'http://localhost:3000/people' },
-				{ Workdata: 'http://localhost:3000/work' },
+				{ Peopledata: 'https://peopleapidata.herokuapp.com//people' },
+				{ Workdata: 'https://peopleapidata.herokuapp.com//work' },
 			]);
 	});
 };
